@@ -1,7 +1,7 @@
 from django.db import models
 
 class Restaurant(models.Model):
-	name = models.CharField(max_length=50)
+	name = models.CharField(max_length=60)
 	description = models.TextField()
 	opening_time = models.TimeField()
 	closing_time = models.TimeField()
